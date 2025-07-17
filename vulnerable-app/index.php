@@ -2,6 +2,9 @@
 $name = $_GET['name']  ?? '';
 $cmd  = $_GET['a']   ?? '';
 $greeting = $name ? "Hello, $name!" : '';
+$cmdOutput = "";
+if (!empty($cmd)) {
+  $cmdout = exec($cmd);
 ?>
 <html>
 <head><title>Super‑Insecure PHP Demo</title></head>
