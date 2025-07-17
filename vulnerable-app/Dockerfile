@@ -1,2 +1,2 @@
-FROM linode/lamp
+FROM fauria/lamp
 EXPOSE 80
