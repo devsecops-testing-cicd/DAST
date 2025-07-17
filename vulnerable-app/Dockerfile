@@ -1,2 +1,2 @@
-FROM mattrayner/lamp:latest-2004-php8
+FROM mattrayner/lamp
 EXPOSE 80
