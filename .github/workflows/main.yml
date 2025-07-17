@@ -38,4 +38,4 @@ jobs:
         
     - name: Stop Docker Container
       if: always()   
-      run: docker stop web
+      run: docker stop vulnerable-app
