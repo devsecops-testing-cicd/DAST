@@ -1,0 +1,5 @@
+name: 'Vulnerable App'
+description: 'Creates the vulnerable app container'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
