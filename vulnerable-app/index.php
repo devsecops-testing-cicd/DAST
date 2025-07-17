@@ -4,7 +4,7 @@ $cmd  = $_GET['a']   ?? '';
 $greeting = $name ? "Hello, $name!" : '';
 $cmdOutput = "";
 if (!empty($cmd)) {
-  $cmdout = exec($cmd);
+  $cmdOutput = exec($cmd);
 ?>
 <html>
 <head><title>Super‑Insecure PHP Demo</title></head>
