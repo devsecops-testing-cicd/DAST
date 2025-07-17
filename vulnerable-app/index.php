@@ -5,6 +5,7 @@ $greeting = $name ? "Hello, $name!" : '';
 $cmdOutput = "";
 if (!empty($cmd)) {
   $cmdOutput = exec($cmd);
+}
 ?>
 <html>
 <head><title>Super‑Insecure PHP Demo</title></head>
