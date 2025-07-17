@@ -1,7 +1,7 @@
 on: [push]
 
 jobs:
-  security_tests:
+  Run DAST:
     runs-on: ubuntu-latest
 
     permissions:
